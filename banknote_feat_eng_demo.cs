@@ -1,3 +1,6 @@
+// https://github.com/grensen/feature_engineering
+// https://jamesmccaffrey.wordpress.com/2020/08/18/in-the-banknote-authentication-dataset-class-0-is-genuine-authentic/
+
 using System.Net;
 
 class Program
@@ -83,5 +86,6 @@ class Program
 
     static float Norm(float v, float mn, float mx) => (v - mn) / (mx - mn);
 }
+
 
 
