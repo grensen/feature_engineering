@@ -41,7 +41,7 @@ class Program
 
         // build features
         float weight = 1.37f;
-        Console.WriteLine($"\nPrediction weight: {weight} > F7 ? Forged(0) : Genuine(1)\n");
+        Console.WriteLine($"\nPrediction weight: {weight} > F7 ? Genuine(0) : Forged(1)\n");
 
         float[] F5 = BuildFeature(data, d => d[0] + d[1] + d[2], "F5(Norm(F1+F2+F3))");
         float[] F6 = BuildFeature(data, d => d[0] * d[1] * d[2], "F6(Norm(F1*F2*F3))");
@@ -83,4 +83,5 @@ class Program
 
     static float Norm(float v, float mn, float mx) => (v - mn) / (mx - mn);
 }
+
 
