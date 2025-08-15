@@ -90,7 +90,7 @@ The banknote binary classification dataset is another nice problem where label 0
 ## Banknote Demo
 
 <p align="center">
-  <img src="https://github.com/grensen/feature_engineering/blob/main/figures/banknote_feat_eng_demo.png?raw=true" alt=""/>
+  <img src="https://github.com/grensen/feature_engineering/blob/main/figures/banknote_feat_eng_demo_fixed.png?raw=true" alt=""/>
 </p>
 
 I created a demo in C# to test this visually developed prediction model, [Code can be found here](https://github.com/grensen/feature_engineering/blob/main/banknote_feat_eng_demo.cs). The prediction weight of 1.37 is a direct result of this visual work.
