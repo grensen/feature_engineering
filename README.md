@@ -106,3 +106,33 @@ There is little room to improve the prediction. The only way forward seems to be
 The concrete compressive strength dataset is another real-life example of a regression problem. Here, the most important feature by far is Cement, which has a strong positive correlation to the label. High cement amounts lead to strong concrete and vice versa, but not always.
 The F9 label is the result of experimentation. It seems that a combination of many feature transformations (I don't know what I really did here) can lead to much stronger features that also seem more reliable than the standard features of the dataset.
 But be careful. Things can change, and sometimes they must. Each dataset is a partial insight into the real distribution, and more data can change the picture. The model will reflect that. Just give it a try. We can do much more with our features than I showed here. Watch out
+
+## Further Impressions: Feature Process Foward (F5 + F5 + F5 + F6)
+
+<p align="center">
+  <img src="https://github.com/grensen/feature_engineering/blob/main/figures/create_feature_forward.gif?raw=true" alt=""/>
+</p>
+
+## Further Impressions: Feature Process Backward (F6 + F5 + F5 + F5)
+
+<p align="center">
+  <img src="https://github.com/grensen/feature_engineering/blob/main/figures/create_feature_reverse.gif?raw=true" alt=""/>
+</p>
+
+## Programmatic Feature Engineering
+
+<p align="center">
+  <img src="https://github.com/grensen/feature_engineering/blob/main/figures/feature_programmatic_demo.png?raw=true" alt=""/>
+</p>
+
+## The Entire Hardcoded Model
+
+<p align="center">
+  <img src="https://github.com/grensen/feature_engineering/blob/main/figures/2025-feature_engineering_model.png?raw=true" alt=""/>
+</p>
+
+## Feature Engineering Class Functions (Predict or Transform X Array)
+
+<p align="center">
+  <img src="https://github.com/grensen/feature_engineering/blob/main/figures/feature_engineering_class.png?raw=true" alt=""/>
+</p>
